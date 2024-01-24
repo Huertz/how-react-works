@@ -87,6 +87,7 @@ function TabContent({ item }) {
 
   console.log('RENDER');
 
+  // calling function most optmimal to keep values in state
   function handleInc() {
     setLikes((likes) => likes + 1);
   }
